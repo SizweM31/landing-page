@@ -3,7 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 10px 80px;
+    /* padding: 10px 80px; */
     flex: 1;
 /* Ensure body elements take up entire screen */
     height: 100vh; 
@@ -14,6 +14,8 @@ body {
 .header-strip {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    font-size: 18px;
 }
 
 .header-links li {
@@ -22,11 +24,18 @@ body {
 
 .header-links a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header-links {
     display: flex;
     gap: 8px;
+    padding-right: 8px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 /* Content styles */
@@ -35,6 +44,12 @@ body {
     display: flex;
     flex:1 1 0;
     flex-wrap: wrap;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .image-placeholder {
@@ -98,4 +113,5 @@ body {
  .footer-strip {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
  }
