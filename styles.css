@@ -64,21 +64,43 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
+    margin: 10px 50px;
 }
-
 
 /* Round corners of images and corners */
 /* https://css-tricks.com/almanac/properties/b/border-radius/#:~:text=You%20can%20give%20any%20element,than%20the%20element%20it's%20above.------------------------- */
-.sign-up, img {
+img {
     border-radius: 10px;
+}
+
+.sign-up {
+    border-radius: 5px;
 }
 /* ------------------------- */
 
-.image-placeholder {
+.content-section-1 div {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
+    flex-grow: 1;
+}
+
+.content-section-1 img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.title div {
+    display: flex;
+    align-self: flex-start;
+}
+
+.title button {
+    background-color: #3882f6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
 }
 
 .content-section-2 {
@@ -88,10 +110,16 @@ body {
     align-items: center;
 }
 
+.header-text-images {
+    display: flex;
+    flex: 1;
+}
+
 .image-text {
     display: flex;
-    gap: 8px;
     flex: 1;
+    align-items:center;
+    justify-content: space-evenly;
 }
 
 .image-text div {
@@ -100,7 +128,20 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
 }
+
+.content-section-2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-section-3 {
     display: flex;
     justify-content: center;
@@ -121,6 +162,10 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #3882f6;
+    margin: 50px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
  }
 
  .sign-up button {
@@ -128,6 +173,7 @@ body {
     border-color: #f9faf8;
     background-color: #3882f6;
     color: #f9faf8;
+
  }
 
  .sign-up-call {
