@@ -16,6 +16,8 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     font-size: 18px;
+    padding-left: 50px;
+    padding-top: 8px;
 }
 
 .header-links li {
@@ -29,8 +31,8 @@ body {
 
 .header-links {
     display: flex;
-    gap: 8px;
-    padding-right: 8px;
+    gap: 20px;
+    padding-right: 50px;
 }
 
 .header-logo-text {
