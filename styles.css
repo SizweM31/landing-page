@@ -66,6 +66,14 @@ body {
     flex: 1 1 0;
 }
 
+
+/* Round corners of images and corners */
+/* https://css-tricks.com/almanac/properties/b/border-radius/#:~:text=You%20can%20give%20any%20element,than%20the%20element%20it's%20above.------------------------- */
+.sign-up, img {
+    border-radius: 10px;
+}
+/* ------------------------- */
+
 .image-placeholder {
     display: flex;
     justify-content: center;
@@ -112,10 +120,14 @@ body {
  .sign-up {
     display: flex;
     flex-direction: row;
+    background-color: #3882f6;
  }
 
  .sign-up button {
-    margin: 35px 0px;
+    margin: 35px;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
  }
 
  .sign-up-call {
@@ -129,4 +141,5 @@ body {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    color: #f9faf8;
  }
